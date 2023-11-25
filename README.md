@@ -1,31 +1,66 @@
-# React + TypeScript + Vite
+# NobelPrizes      
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Instrukcja uruchomienia
+Przed rozpoczęciem instalacji upewnij się, że w twoim środowisku zainstalowane są:     
 
-Currently, two official plugins are available:
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) (zawarte w Node.js)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Instrukcja Instalacji Aplikacji      
+    
+1. **Sklonuj repozytorium GitHub**  
+W folderze otwórz terminal i użyj polecenia:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+   ```javascript
+   git clone https://github.com/Massny/BitWeb.git
+   ```
 
-- Configure the top-level `parserOptions` property like this:
+2. **Przejdź do katalogu projektu:**  
+Używając terminala przejdź do nowo utworzonego katalogu:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+   ```javascript
+   cd BitWeb
+   ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# NobelPrizes
+3. **Zainstaluj wymagane pakiety:**  
+Wykonaj poniższe polecenie, aby dokończyć instalację apliakcji:
+
+   ```javascript
+   npm install
+   ```
+  
+## Uruchomienie aplikacji  
+
+Po instalacji możesz uruchomić aplikację lokalnie w trybie developerskim używając polecenia:
+
+   ```javascript
+   npm run dev 
+   ```
+
+Po jego wykonaniu zostanie uruchomiony serwer deweloperski. Teraz wystarczy, że w przeglądarce odwiedzisz adres http://localhost:5173
+
+W folderze z projektem przesyłam również zbuildowaną wersję aplikacji, którą możesz uruchomić używając poleceń (znajdując się w folderze projektu):
+
+   ```javascript
+   npm install -g serve
+   serve -s dist
+   ```
+
+Aplikacja będzie dostępna pod adresem, który pojawi się w terminalu.
+
+## Dlaczego ja       
+
+Jestem studentem 1 roku Informatyki WI. Posiadam trochę podstawowego doświadczenia związanego z WebDevem. Między innymi pracowałem przy tworzeniu i administrowaniu witryn:
+- egamin-informatyk.pl
+- egzamin-ekomomista.pl
+- egzamin-programista.pl
+
+Dzięki temu posiadam podstawowe umiejętności z zakresów:
+- pracy z bazami danych SQL
+- języka JavaScript wraz z JQuerry
+- języka PHP oraz frameworka Symfony
+- języka Python
+
+Poza tym jestem zorganizowaną osobą, która zawsze stara się wykonywać jak najlepiej swoje obowiązki oraz jestem w stanie szybko przyswajać brakującą wiedzę potrzebną do pracy.
+Chciałbym uczestniczyć w projekcie Enrolla 2.0, ponieważ podczas niego zdobędę sporo doświadczenia w pracy z technologiami webowymi oraz współpracy z dużym zespołem.
