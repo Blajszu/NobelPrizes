@@ -48,19 +48,3 @@ W folderze z projektem przesyłam również zbuildowaną wersję aplikacji, któ
    ```
 
 Aplikacja będzie dostępna pod adresem, który pojawi się w terminalu.
-
-## Dlaczego ja       
-
-Jestem studentem 1 roku Informatyki WI. Posiadam trochę podstawowego doświadczenia związanego z WebDevem. Między innymi pracowałem przy tworzeniu i administrowaniu witryn:
-- egamin-informatyk.pl
-- egzamin-ekomomista.pl
-- egzamin-programista.pl
-
-Dzięki temu posiadam podstawowe umiejętności z zakresów:
-- pracy z bazami danych SQL
-- języka JavaScript wraz z JQuerry
-- języka PHP oraz frameworka Symfony
-- języka Python
-
-Poza tym jestem zorganizowaną osobą, która zawsze stara się wykonywać jak najlepiej swoje obowiązki oraz jestem w stanie szybko przyswajać brakującą wiedzę potrzebną do pracy.
-Chciałbym uczestniczyć w projekcie Enrolla 2.0, ponieważ podczas niego zdobędę sporo doświadczenia w pracy z technologiami webowymi oraz współpracy z dużym zespołem.
